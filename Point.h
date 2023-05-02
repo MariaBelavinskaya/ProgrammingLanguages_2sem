@@ -5,7 +5,7 @@
 namespace miit::figure
 {
 	class Point;
-	std::string ToString(Point point);
+	std::wstring ToString(Point* point);
 	class Point
 	{
 	public:
