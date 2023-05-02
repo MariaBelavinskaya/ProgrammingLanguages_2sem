@@ -17,7 +17,7 @@ double miit::figure::Point::get_y() const
 	return this->y;
 }
 
-std::string miit::figure::ToString(Point point)
+std::wstring miit::figure::ToString(Point* point)
 {
 	std::stringstream ss;
 	ss<< "X: "  << (point.get_x()) << " Y: " << (point.get_y());
