@@ -1,11 +1,13 @@
 #include <iostream>
-#include "../Figure/Point.h"
+#include "../task_1/elipse.h"
 
 using namespace miit::figure;
 
 int main()
 {
-	Point point_1 = Point(0.9, 20);
-	std::cout << point_1;
+	int value_a = 5; 
+	int value_b = 10;
+	Elipse first_Elipse(value_a, value_b);
+	std::cout << first_Elipse;
 	return 0;
 }
